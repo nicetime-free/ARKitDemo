@@ -11,9 +11,12 @@
 
 4、最后使用如下的一系列命令来将其提交到远程仓库中
 
-`1 git add *`
-`2 git commit -m "some info"`
-`3 git push origin master`
+`1 git add *` 
+
+`2 git commit -m "some info"`  
+
+`3 git push origin master`  
+
 
 我个人觉得这种方法不好。原因在于上面的第三步：需要拷贝，如果你提交的工程代码永远不再改变，这样OK，但是，如果你的工程代码还需要修改修改再提交，修改再提交，则你就需要重新将修改后的工程代码拷贝到这个仓库，相当麻烦且容易出错哈。
 
