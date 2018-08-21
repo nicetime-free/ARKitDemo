@@ -1,0 +1,19 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# ´´½¨µÄÎÄ¼þ:13.09.2017 13:50:22
+
+newmtl jaguar
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\win1\Desktop\ÁÔ±ª\textures\CH_NPC_MOB_Jaguar_A01_D_IRS.png
+	map_Kd C:\Users\win1\Desktop\ÁÔ±ª\textures\CH_NPC_MOB_Jaguar_A01_D_IRS.png
+	map_d C:\Users\win1\Desktop\ÁÔ±ª\textures\CH_NPC_MOB_Jaguar_A01_D_IRS.png
+	map_bump C:\Users\win1\Desktop\ÁÔ±ª\textures\CH_NPC_MOB_Jaguar_A01_N_IRS.png
+	bump C:\Users\win1\Desktop\ÁÔ±ª\textures\CH_NPC_MOB_Jaguar_A01_N_IRS.png

@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4209999D20FF328D0048D6B2 /* maotouyin.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 4209999C20FF328D0048D6B2 /* maotouyin.scnassets */; };
+		421EF9DA2105BE40003019D1 /* WDARSCNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421EF9D92105BE40003019D1 /* WDARSCNViewController.swift */; };
 		4256D3C520F45DDC000CFA9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4256D3C420F45DDC000CFA9F /* AppDelegate.swift */; };
 		4256D3C720F45DDC000CFA9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4256D3C620F45DDC000CFA9F /* ViewController.swift */; };
 		4256D3CA20F45DDC000CFA9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4256D3C820F45DDC000CFA9F /* Main.storyboard */; };
 		4256D3CC20F45DDD000CFA9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4256D3CB20F45DDD000CFA9F /* Assets.xcassets */; };
 		4256D3CF20F45DDD000CFA9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4256D3CD20F45DDD000CFA9F /* LaunchScreen.storyboard */; };
+		429769B820F488EE00B580A9 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429769B720F488EE00B580A9 /* ARKit.framework */; };
+		42B1D86520FF17CF00EF851C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B1D86420FF17CE00EF851C /* art.scnassets */; };
+		42B87E7A2105753B0041D4D4 /* owl.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B87E792105753B0041D4D4 /* owl.scnassets */; };
+		42F8F96C2113F13500BA85DC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F8F96B2113F13500BA85DC /* Extensions.swift */; };
+		42F8F96E2114321500BA85DC /* Animals.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F8F96D2114321500BA85DC /* Animals.scnassets */; };
+		42F8F9772114431200BA85DC /* ZWPullMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F8F9712114431100BA85DC /* ZWPullMenuCell.m */; };
+		42F8F9782114431200BA85DC /* ZWPullMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42F8F9722114431100BA85DC /* ZWPullMenuCell.xib */; };
+		42F8F9792114431200BA85DC /* ZWPullMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F8F9742114431100BA85DC /* ZWPullMenuModel.m */; };
+		42F8F97A2114431200BA85DC /* ZWPullMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F8F9762114431100BA85DC /* ZWPullMenuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4209999C20FF328D0048D6B2 /* maotouyin.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = maotouyin.scnassets; sourceTree = "<group>"; };
+		421EF9D92105BE40003019D1 /* WDARSCNViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WDARSCNViewController.swift; sourceTree = "<group>"; };
 		4256D3C120F45DDC000CFA9F /* ARKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4256D3C420F45DDC000CFA9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4256D3C620F45DDC000CFA9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,19 @@
 		4256D3CB20F45DDD000CFA9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4256D3CE20F45DDD000CFA9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4256D3D020F45DDD000CFA9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		429769B720F488EE00B580A9 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		42B1D86420FF17CE00EF851C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		42B87E792105753B0041D4D4 /* owl.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = owl.scnassets; sourceTree = "<group>"; };
+		42F8F96B2113F13500BA85DC /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		42F8F96D2114321500BA85DC /* Animals.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Animals.scnassets; sourceTree = "<group>"; };
+		42F8F9702114431100BA85DC /* ZWPullMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPullMenuCell.h; sourceTree = "<group>"; };
+		42F8F9712114431100BA85DC /* ZWPullMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPullMenuCell.m; sourceTree = "<group>"; };
+		42F8F9722114431100BA85DC /* ZWPullMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWPullMenuCell.xib; sourceTree = "<group>"; };
+		42F8F9732114431100BA85DC /* ZWPullMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPullMenuModel.h; sourceTree = "<group>"; };
+		42F8F9742114431100BA85DC /* ZWPullMenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPullMenuModel.m; sourceTree = "<group>"; };
+		42F8F9752114431100BA85DC /* ZWPullMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPullMenuView.h; sourceTree = "<group>"; };
+		42F8F9762114431100BA85DC /* ZWPullMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPullMenuView.m; sourceTree = "<group>"; };
+		42F8F97B2114432700BA85DC /* ARKitDemo-bridge-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARKitDemo-bridge-header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				429769B820F488EE00B580A9 /* ARKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +67,7 @@
 			children = (
 				4256D3C320F45DDC000CFA9F /* ARKitDemo */,
 				4256D3C220F45DDC000CFA9F /* Products */,
+				429769B620F488ED00B580A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,44 @@
 		4256D3C320F45DDC000CFA9F /* ARKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				42F8F96F2114431100BA85DC /* ZWPullMenuView */,
 				4256D3C420F45DDC000CFA9F /* AppDelegate.swift */,
+				42F8F96B2113F13500BA85DC /* Extensions.swift */,
 				4256D3C620F45DDC000CFA9F /* ViewController.swift */,
+				421EF9D92105BE40003019D1 /* WDARSCNViewController.swift */,
+				42F8F96D2114321500BA85DC /* Animals.scnassets */,
+				42B87E792105753B0041D4D4 /* owl.scnassets */,
+				4209999C20FF328D0048D6B2 /* maotouyin.scnassets */,
+				42B1D86420FF17CE00EF851C /* art.scnassets */,
 				4256D3C820F45DDC000CFA9F /* Main.storyboard */,
 				4256D3CB20F45DDD000CFA9F /* Assets.xcassets */,
 				4256D3CD20F45DDD000CFA9F /* LaunchScreen.storyboard */,
+				42F8F97B2114432700BA85DC /* ARKitDemo-bridge-header.h */,
 				4256D3D020F45DDD000CFA9F /* Info.plist */,
 			);
 			path = ARKitDemo;
+			sourceTree = "<group>";
+		};
+		429769B620F488ED00B580A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				429769B720F488EE00B580A9 /* ARKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42F8F96F2114431100BA85DC /* ZWPullMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				42F8F9702114431100BA85DC /* ZWPullMenuCell.h */,
+				42F8F9712114431100BA85DC /* ZWPullMenuCell.m */,
+				42F8F9722114431100BA85DC /* ZWPullMenuCell.xib */,
+				42F8F9732114431100BA85DC /* ZWPullMenuModel.h */,
+				42F8F9742114431100BA85DC /* ZWPullMenuModel.m */,
+				42F8F9752114431100BA85DC /* ZWPullMenuView.h */,
+				42F8F9762114431100BA85DC /* ZWPullMenuView.m */,
+			);
+			path = ZWPullMenuView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +181,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4256D3CF20F45DDD000CFA9F /* LaunchScreen.storyboard in Resources */,
+				4209999D20FF328D0048D6B2 /* maotouyin.scnassets in Resources */,
+				42B87E7A2105753B0041D4D4 /* owl.scnassets in Resources */,
+				42B1D86520FF17CF00EF851C /* art.scnassets in Resources */,
 				4256D3CC20F45DDD000CFA9F /* Assets.xcassets in Resources */,
 				4256D3CA20F45DDC000CFA9F /* Main.storyboard in Resources */,
+				42F8F9782114431200BA85DC /* ZWPullMenuCell.xib in Resources */,
+				42F8F96E2114321500BA85DC /* Animals.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +198,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42F8F9772114431200BA85DC /* ZWPullMenuCell.m in Sources */,
+				421EF9DA2105BE40003019D1 /* WDARSCNViewController.swift in Sources */,
+				42F8F9792114431200BA85DC /* ZWPullMenuModel.m in Sources */,
 				4256D3C720F45DDC000CFA9F /* ViewController.swift in Sources */,
 				4256D3C520F45DDC000CFA9F /* AppDelegate.swift in Sources */,
+				42F8F97A2114431200BA85DC /* ZWPullMenuView.m in Sources */,
+				42F8F96C2113F13500BA85DC /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +353,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V35KC3TD5R;
 				INFOPLIST_FILE = ARKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.weidou.test.ARKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/cby/Desktop/ARKitDemo/ARKitDemo/ARKitDemo-bridge-header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,12 +373,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V35KC3TD5R;
 				INFOPLIST_FILE = ARKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.weidou.test.ARKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/cby/Desktop/ARKitDemo/ARKitDemo/ARKitDemo-bridge-header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
