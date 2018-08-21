@@ -11,13 +11,10 @@
 
 4、最后使用如下的一系列命令来将其提交到远程仓库中
 
-git add *
-git commit -m "some info"
-git push origin master
-1
-2
-3
-4
+`1 git add *`
+`2 git commit -m "some info"`
+`3 git push origin master`
+
 我个人觉得这种方法不好。原因在于上面的第三步：需要拷贝，如果你提交的工程代码永远不再改变，这样OK，但是，如果你的工程代码还需要修改修改再提交，修改再提交，则你就需要重新将修改后的工程代码拷贝到这个仓库，相当麻烦且容易出错哈。
 
 自己一般写的Demo都是不再修改的，因此也就按照以上这种不太好的习惯至今。
@@ -50,7 +47,7 @@ git push origin master
 
 在实践过程中，由于在github上手动创建的仓库包括：README.md文件，二本地仓库没有此文件，则在执行git push -u origin master命令时报如下的错误。
 
-
+![error](http://7xknzt.com1.z0.glb.clouddn.com/git_error_v1.png)
 
 ## 解决方法为：
 
