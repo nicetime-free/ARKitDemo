@@ -1,5 +1,4 @@
-# ARKitDemo
-test arkit and github
+
 # github新建本地仓库并将代码提交到远程仓库
 
 假设有一个工程需要提交到github相关仓库中，以前自己将工程代码提交到远程仓库都是这么干的，如下：
@@ -25,7 +24,7 @@ git push origin master
 
 今天就尝试了下如何直接在本地创建仓库并提交到远程仓库，记录一下。
 
-具体步骤如下：
+##具体步骤如下：
 
 前提：在github上手动创建仓库gitRepo。
 
@@ -45,7 +44,7 @@ git push origin master
 
 7、 git push -u origin master #将本地仓库push到远程仓库
 
-需要注意的是：一定要在github上手动创建仓库gitRepo，否则会出现如下的错误。
+##需要注意的是：一定要在github上手动创建仓库gitRepo，否则会出现如下的错误。
 
 
 
@@ -53,7 +52,7 @@ git push origin master
 
 
 
-解决方法为：
+##解决方法为：
 
 第一步：可以通过如下命令进行代码合并【注：pull=fetch+merge]
 
@@ -66,7 +65,7 @@ git pull --rebase origin master
 
 
 
-小结
+##小结
 
 以上就是在本地创建新的仓库并上传到远程仓库的相关命令操作。
 
