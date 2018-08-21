@@ -3,7 +3,7 @@
 
 假设有一个工程需要提交到github相关仓库中，以前自己将工程代码提交到远程仓库都是这么干的，如下：
 
->1、在github上新建好仓库，假设仓库名为：gitRepo。
+>>>1、在github上新建好仓库，假设仓库名为：gitRepo。
 
 2、使用命令git clone git@github.com:yourgithubID/gitRepo.git 克隆到本地相应的位置。
 
