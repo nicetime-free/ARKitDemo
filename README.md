@@ -46,7 +46,7 @@ git push origin master
 
 ## 需要注意的是：一定要在github上手动创建仓库gitRepo，否则会出现如下的错误。
 
-
+![error](http://7xknzt.com1.z0.glb.clouddn.com/git_error_v3.png)
 
 在实践过程中，由于在github上手动创建的仓库包括：README.md文件，二本地仓库没有此文件，则在执行git push -u origin master命令时报如下的错误。
 
